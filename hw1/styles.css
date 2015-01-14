@@ -19,7 +19,7 @@ div.top-banner {
 	left: 50px;
 }
 
-input {
+.git-search {
 	position: absolute;
 	top: 20%;
 	left: 8%;
@@ -63,9 +63,17 @@ div.right-side {
   	cursor: pointer;
 }
 
+.me-small-pic{
+	height: 20px;
+	width: 20px;
+	border-radius: 5px;
+}
+
 .left-side-stuff {
 	margin-left: 10px;
+	margin-right: 0px;
 	width: 230px;
+	padding: 0;
 
 }
 .me-large-pic {
@@ -131,6 +139,8 @@ div.right-side {
 .following-num {
 	display: inline-block;
 	vertical-align: middle;
+	letter-spacing: 20px;
+	padding-left: 20px;
 }
 
 .followers-num,
@@ -143,14 +153,119 @@ div.right-side {
 .starred{background-color:red;}
 .following {background-color: gray;}
 
+.social {
+	text-align: center;
+}
 
+.organizations{
+	padding-top: 10px;
+	font-size: 15px;
+	font-weight: bold;
+}
+.organizations-image{
+	height: 42px;
+	width: 42px;
+	padding-top: 15px;
+}
 
+.middle-of-screen{
+	top: 70px;
+	right: 20px;
+	left: 20%;
+	position: absolute;
 
+}
 
+.contributions-row{
+	background-color: gray;
+	border-bottom: solid;
+	height: 50px;
 
+}
+.contributions-row ul{
+	list-style-type: none;
+}
 
+.contributions-row ul li{
+	display: inline;
+	vertical-align: middle;
+	cursor: pointer;
+}
+.contributions-row ul li,
+.edit-profile{
+	vertical-align: middle;
+}
 
+.edit-profile{
+	right: 0;
+	position: absolute;
+	top-padding: 0;
+}
 
+.find-repo-row{
+	background-color: orange;
+	border-bottom: solid;
+	height: 50px;
+}
+
+.find-repo-row ul{
+	list-style-type: none;
+}
+
+.find-repo-row ul li{
+	display: inline;
+	vertical-align: middle;
+	cursor: pointer;
+}
+
+button {
+	background-color: green
+}
+
+.day7{
+	background-color: yellow;
+	border-bottom: solid;
+	height: 100px;
+}
+.day6{
+	background-color: gray;
+	border-bottom: solid;
+	height: 100px;
+}
+.day4{
+	background-color: yellow;
+	border-bottom: solid;
+	height: 100px;
+}
+.day3{
+	background-color: gray;
+	border-bottom: solid;
+	height: 100px;
+}
+
+.footer{
+	right: 0;
+	left: 0;
+	bottom: 0;
+	height: 50px;
+	background-color: gray;
+	text-align: center;
+	position: absolute;
+	width: 100%;
+
+}
+
+.day-title{
+	font-size: 20px;
+	font-weight: bold;
+}
+.day-about{
+	font-size: 14px;
+
+}
+.day-updated{
+	font-size: 13px;
+}
 
 
 
